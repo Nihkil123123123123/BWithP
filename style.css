@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: #f0e8c5;
+  }
+
+  div {
+    margin-top: 15px;
+  }
+
+  
+  .image-section {
+  /* Correct the display value as flex */
+    display: flex;
+  /* Correct the justify-content value as center */	  justify-content: center;
+  }
+
+  .section-style {
+  /* Correct the name of the properties to 
+      margin-right and margin-left */
+    margin-right: 25px;
+    margin-left: 25px;
+  /* Correct the name of the property to
+      background-color */
+      background-color: white;
+  }
+  @-ms-viewport{
+    width: device-width;
+  }
